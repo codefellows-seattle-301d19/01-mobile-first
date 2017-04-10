@@ -10,12 +10,6 @@ hr {
   width: 80%;
 }
 
-@media all and (min-width: 480px) {
-  /*img {
-    max-width: 500px;*/
-  }
-}
-
 main {
   margin: 10%;
 }

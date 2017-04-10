@@ -2,8 +2,6 @@
   background: #FFEAAA;
 }
 
-/* REVIEW: Float the main header to the left, to make room for the hamburger menu. */
-
 /*FOR DESKTOP*/
 
 @media all and (min-width: 500px) {
@@ -16,9 +14,7 @@
     padding: 2em ;
     border-bottom: 1px solid #ccc;
     display: inline;
-
   }
-
 
 }
 /*FOR SMARTPHONE*/
@@ -85,9 +81,3 @@
   font-weight: bold;
   text-decoration: none;
 }
-
-/* TODO: Now add styles for how things should look on a larger screen:
-         - Hide the hamburger.
-         - Main should be all on one row, with padding spaced better for a larger screen.
-         - Just, ya know, try to make it look good! */
-/* @media only screen... */
