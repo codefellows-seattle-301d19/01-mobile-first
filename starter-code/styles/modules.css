@@ -2,23 +2,53 @@
   background: #FFEAAA;
 }
 
-/* REVIEW: Float the main header to the left, to make room for the hamburger menu. */
+/*FOR DESKTOP*/
+
+@media all and (min-width: 500px) {
+  .icon-menu {
+    display: none;
+  }
+  .main-nav li {
+    margin-right: .4em;
+    font-size: 1.5em;
+    padding: 2em ;
+    border-bottom: 1px solid #ccc;
+    display: inline;
+  }
+
+}
+/*FOR SMARTPHONE*/
+@media all and (max-width: 500px) {
+  .icon-menu {
+    display: inline-block;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    }
+    nav >  ul > li  {
+    display: none;
+  }
+}
+
 .heading-group-h1 {
   float: left;
   padding: 0 0 .2em 1em;
 }
 
-/* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+
 
 .main-nav {
   padding: 0.1em;
+
 }
 
 .main-nav ul {
-  display: none;
+  display: block;
   padding: 0;
   list-style: none;
   clear: both;
+  text-align: center;
+
 }
 
 .main-nav:hover ul {
@@ -28,8 +58,10 @@
 .main-nav li {
   margin-right: .4em;
   font-size: 1.5em;
-  padding: .5em .2em;
+  padding: .5em 2em;
   border-bottom: 1px solid #ccc;
+  /*display: inline;*/
+
 }
 
 #filters {
@@ -49,9 +81,3 @@
   font-weight: bold;
   text-decoration: none;
 }
-
-/* TODO: Now add styles for how things should look on a larger screen:
-         - Hide the hamburger.
-         - Main should be all on one row, with padding spaced better for a larger screen.
-         - Just, ya know, try to make it look good! */
-/* @media only screen... */

@@ -1,5 +1,4 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
-
+/*REVIVED THE DEAD CODE*/
 body {
   line-height: 1.5;
   font-size: 100%;
@@ -11,6 +10,9 @@ hr {
   width: 80%;
 }
 
+main {
+  margin: 10%;
+}
 /*TEXT STYLES
 =======================================*/
 p {
