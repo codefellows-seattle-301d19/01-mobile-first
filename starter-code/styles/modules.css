@@ -10,8 +10,21 @@
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 
+.icon-menu {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-size: 3em;
+    margin-right: 2vw;
+}
+
 .main-nav {
   padding: 0.1em;
+  max-width: 15%;
+  float: right;
 }
 
 .main-nav ul {
