@@ -1,4 +1,3 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
 
 body {
   line-height: 1.5;
@@ -11,6 +10,15 @@ hr {
   width: 80%;
 }
 
+@media all and (min-width: 480px) {
+  /*img {
+    max-width: 500px;*/
+  }
+}
+
+main {
+  margin: 10%;
+}
 /*TEXT STYLES
 =======================================*/
 p {
