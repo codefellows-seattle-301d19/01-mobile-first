@@ -23,6 +23,7 @@
   z-index:10000000000000;
 }
 .main-nav {
+  display:inline;
   padding: 0.1em;
 }
 
@@ -69,4 +70,10 @@
 }
 .img {max-width: 100%;}
 
+.main-nav li {
+  display:inline;
+}
+.main-nav ul {
+  display:inline;
+}
 }
